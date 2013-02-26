@@ -1,0 +1,4 @@
+amscheck
+========
+
+amscheck rpm
