@@ -9,7 +9,8 @@ License:	Unlicensed
 Source0:	amscheck
 BuildRoot:	%(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 
-#BuildRequires:	
+#BuildRequires:
+#Be sure to build for 32-bit because that's what this binary is.
 Requires:	libgcc
 Requires:	libstdc++
 Requires:	glibc
